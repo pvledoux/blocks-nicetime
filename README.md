@@ -34,10 +34,30 @@ It will output this kind of result:
 ## Parameters
 
 
-| Parameter | Required | Default | Remark |
-|----------- ---------- --------- --------
-|**format** | optional | d-m-Y H:i | see [php.net](http://php.net/manual/en/function.date.php) format all format
-|**relative** | optional | yes | Should we display relative time?
+<table>
+<thead>
+<tr>
+<th> Parameter </th>
+<th> Required </th>
+<th> Default </th>
+<th> Remark </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>format</strong> </td>
+<td> optional </td>
+<td> d-m-Y H:i </td>
+<td> see <a href="http://php.net/manual/en/function.date.php">php.net</a> format all format</td>
+</tr>
+<tr>
+<td><strong>relative</strong> </td>
+<td> optional </td>
+<td> yes </td>
+<td> Should we display relative time?</td>
+</tr>
+</tbody>
+</table>
 
  
 
