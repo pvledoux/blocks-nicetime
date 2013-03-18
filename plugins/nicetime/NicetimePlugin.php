@@ -1,5 +1,5 @@
 <?php
-namespace Blocks;
+namespace Craft;
 
 /**
  * Nicetime by Pv Ledoux
@@ -41,7 +41,7 @@ class NicetimePlugin extends BasePlugin
 {
 	function getName()
 	{
-		return Blocks::t('Nice Time');
+		return Craft::t('Nice Time');
 	}
 
 	function getVersion()
@@ -67,7 +67,7 @@ class NicetimePlugin extends BasePlugin
 	public function hookAddTwigExtension()
 	{
 		// require our Nicetime_Twig_Extension class definition
-		require_once blx()->path->getPluginsPath() . 'nicetime/twig_extensions/Nicetime_Twig_Extension.php';
+		require_once craft()->path->getPluginsPath() . 'nicetime/twig_extensions/Nicetime_Twig_Extension.php';
 
 		// return instance of
 		return new Nicetime_Twig_Extension();
