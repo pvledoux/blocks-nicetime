@@ -81,10 +81,10 @@ class Nicetime_Twig_Extension extends \Twig_Extension
 			if ($diff<4)
 				return $diff . " week" . $this->_plural($diff) . $frame;
 
-			return $prefix . date($this->_format, $date);
+			return $prefix . date($format, $date);
 		}
 
-		return date($this->_format, $date);
+		return date($format, $date);
 	}
 
 
