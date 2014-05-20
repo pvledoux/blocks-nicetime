@@ -64,7 +64,7 @@ class NicetimePlugin extends BasePlugin
 	 *
 	 * @return Twig_Extension
 	 */
-	public function hookAddTwigExtension()
+	public function addTwigExtension()
 	{
 		// require our Nicetime_Twig_Extension class definition
 		require_once craft()->path->getPluginsPath() . 'nicetime/twig_extensions/Nicetime_Twig_Extension.php';
