@@ -1,3 +1,11 @@
+# Deprecated
+
+This plugin is deprecated as this functionality is built in Twig template engine:
+http://twig.sensiolabs.org/doc/filters/date_modify.html
+
+This plugin was just a sandbox to play with Blockcms (before it became Craftcms), and I'm not maintaining it.
+
+
 # Nicetime
 
 
